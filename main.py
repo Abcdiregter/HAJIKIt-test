@@ -394,7 +394,6 @@ def login():
     elif username == user and password == passwd:
         print("Thx For Using Tool")
         time.sleep(0.1)
-        ascii_vro()
         main()
 
 login()
